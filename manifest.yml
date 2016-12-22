@@ -1,0 +1,7 @@
+---
+applications:
+- name: employee-service
+  memory: 1G
+  random-route: true
+  path: build/libs/assignment-0.0.1.war
+  buildpack: https://github.com/arpitaggarwal/java-buildpack.git
